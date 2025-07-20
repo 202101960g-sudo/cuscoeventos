@@ -13,6 +13,7 @@ app.use(cors({
 app.use(express.json());
 
 // Conexión a MySQL
+const db = mysql.createConnection({
   host: 'sql10.freesqldatabase.com',
   user: 'sql10791009',
   password: 'TVDYZp1dfI',
