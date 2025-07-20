@@ -13,11 +13,10 @@ app.use(cors({
 app.use(express.json());
 
 // Conexión a MySQL
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'cusco_eventos',
+  host: 'sql10.freesqldatabase.com',
+  user: 'sql10791009',
+  password: 'TVDYZp1dfI',
+  database: 'sql10791009',
   port: 3306
 });
 
